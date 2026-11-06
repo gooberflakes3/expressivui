@@ -1,0 +1,41 @@
+.expressiv-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.expressiv-subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.expressiv-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.expressiv-button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.expressiv-container-h {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+}
+
+.expressiv-container-v {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: auto;
+    gap: 15px;
+}
+
+.expressiv-container-item {
+    flex: 0 0 auto;
+    width: 200px;
+    height: 150px;
+}
